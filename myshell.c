@@ -15,5 +15,6 @@ int main() {
  		for(i = 0; args[i] != NULL; i++) {
  			printf("Argument %d: %s\n", i, args[i]);
  		}
+ 	}
  }
 
