@@ -11,6 +11,7 @@ int main() {
  	char **args;
 
  	while(1) {
+ 		printf("$");
  		args = getline();
  		for(i = 0; args[i] != NULL; i++) {
  			printf("Argument %d: %s\n", i, args[i]);
