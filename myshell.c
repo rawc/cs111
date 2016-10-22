@@ -5,7 +5,7 @@
 #include <errno.h>
 
 extern char **getline();
-#define EXIT = "exit"
+#define EXIT "exit"
 
 int main() {
 	int i;
@@ -23,7 +23,7 @@ int main() {
  				cmd = args[i];
 
  				if (strcmp(cmd,EXIT) == 0) {
- 					sys.exit(0);
+ 					exit(0);
  				}
 
  			}
